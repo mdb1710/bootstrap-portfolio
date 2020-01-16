@@ -11,41 +11,37 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
-            This is a Gatsby Starter that I frequently use to get jump started
-            on quick website builds. It includes the following packages:
+            Hi. I'm Michael Bonner, your friendly neighborhood code composer.
+            This site serves as a glimpse into my world of music and tech.
           </p>
         </Col>
       </Row>
       <Row className="justify-content-center my-3">
         <Col md="6">
           <ListGroup>
-            <ListGroup.Item
-              action
-              href="https://getbootstrap.com"
-              target="_blank"
-            >
-              Bootstrap
+            <ListGroup.Item action href="/about">
+              About Me
             </ListGroup.Item>
             <ListGroup.Item
               action
               href="https://react-bootstrap.github.io/"
               target="_blank"
             >
-              react-bootstrap
+              Extra
             </ListGroup.Item>
             <ListGroup.Item
               action
               href="https://react-icons.netlify.com"
               target="_blank"
             >
-              react-icons
+              Projects
             </ListGroup.Item>
             <ListGroup.Item
               action
               href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
               target="_blank"
             >
-              gatsby-plugin-sass
+              Contact
             </ListGroup.Item>
           </ListGroup>
         </Col>
