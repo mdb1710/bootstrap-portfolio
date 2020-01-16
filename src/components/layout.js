@@ -11,9 +11,8 @@ import { StaticQuery, graphql } from "gatsby"
 import { Container, Row, Col } from "react-bootstrap"
 
 import Header from "./header"
-import Navbar from "./navBar"
 
-const Layout = ({ children, pageInfo }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -32,7 +31,7 @@ const Layout = ({ children, pageInfo }) => (
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
           </Row>
-          <Navbar pageInfo={pageInfo} />
+
           <Row noGutters>
             <Col>
               <Container className="mt-5">

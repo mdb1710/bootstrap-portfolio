@@ -10,10 +10,10 @@ const IndexPage = () => (
     <Container className="text-center">
       <Row>
         <Col>
-          <p>
+          <h1>
             Hi. I'm Michael Bonner, your friendly neighborhood code composer.
             This site serves as a glimpse into my world of music and tech.
-          </p>
+          </h1>
         </Col>
       </Row>
       <Row className="justify-content-center my-3">
@@ -22,25 +22,13 @@ const IndexPage = () => (
             <ListGroup.Item action href="/about">
               About Me
             </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-bootstrap.github.io/"
-              target="_blank"
-            >
+            <ListGroup.Item action href="/extra">
               Extra
             </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-icons.netlify.com"
-              target="_blank"
-            >
+            <ListGroup.Item action href="/projects">
               Projects
             </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
-              target="_blank"
-            >
+            <ListGroup.Item action href="/contact">
               Contact
             </ListGroup.Item>
           </ListGroup>

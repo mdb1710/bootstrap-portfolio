@@ -1,7 +1,9 @@
+"use strict"
+
 module.exports = {
   pathPrefix: "/gatsby-react-bootstrap-starter",
   siteMetadata: {
-    title: `Code By MDB - A Porfolio`,
+    title: `Code By MDB`,
     description: `A dev portfolio for full-stack developer Michael D Bonner`,
     author: `Michael Bonner`,
   },
@@ -23,8 +25,8 @@ module.exports = {
         name: `gatsby-starter-react-bootstrap`,
         short_name: `react-bootstrap`,
         start_url: `/`,
-        background_color: `#20232a`,
-        theme_color: `#20232a`,
+        background_color: `#F0340B`,
+        theme_color: `#F0340B`,
         display: `minimal-ui`,
       },
     },

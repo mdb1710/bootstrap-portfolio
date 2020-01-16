@@ -3,14 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AboutMe from "../components/about"
 
-const About = () => (
-  <Layout pageInfo={{ pageName: "about" }}>
-    <SEO title="About" />
-    <AboutMe />
+import ContactMe from "../components/contactme"
+
+const Contact = () => (
+  <Layout pageInfo={{ pageName: "projects" }}>
+    <SEO title="Projects" />
+    <ContactMe />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default About
+export default Contact
